@@ -1,0 +1,8 @@
+spring:
+ data:
+  mongodb:
+   field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
+   uri: mongodb+srv://admin:Admin_132@cluster0-ne3s2.mongodb.net/product_locator
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
