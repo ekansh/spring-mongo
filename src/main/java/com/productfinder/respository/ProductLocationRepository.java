@@ -10,4 +10,5 @@ public interface ProductLocationRepository
 extends MongoRepository<ProductLocation, String>,ProductLocationRepositoryCustom {
 
   public List<ProductLocation> findByProduct(String product);
+  public List<ProductLocation> findByProductAndStoreId(String product, Integer storeId);
 }

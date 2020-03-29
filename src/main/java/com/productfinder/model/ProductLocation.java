@@ -18,12 +18,12 @@ public class ProductLocation {
 	private String location;
 	private String product;
 	private String aisle;
-
+	private Integer storeId;
 	@Override
 	public String toString() {
 		return String.format(
 				"Product Location[id=%s, store='%s'," + " address='%s',"
-						+ "product='%s', product='%s', aisle='%s']",
-				id, store, address,location, product, aisle);
+						+ "product='%s', product='%s', aisle='%s', storeId='%d']",
+				id, store, address,location, product, aisle,storeId);
 	}
 }
